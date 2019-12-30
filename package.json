@@ -1,0 +1,23 @@
+{
+  "name": "github-types",
+  "version": "0.0.1",
+  "description": "A simple module for GitHub API v3 types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/froi/github-types.git"
+  },
+  "author": "Froilán Irizarry Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/froi/github-types/issues"
+  },
+  "homepage": "https://github.com/froi/github-types#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
