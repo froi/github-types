@@ -1,0 +1,17 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Examples of github-types usage",
+  "main": "example-dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node example-dist/index.js"
+  },
+  "author": "Froilán Irizarry Rivera",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.7.4"
+  }
+}
