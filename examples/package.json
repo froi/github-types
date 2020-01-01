@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node-fetch": "^2.5.4",
+    "github-types": "file:..",
     "node-fetch": "^2.6.0",
     "typescript": "^3.7.4"
   }
