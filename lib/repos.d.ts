@@ -1,4 +1,4 @@
-import * as generics from './generics';
+import { GitHubEntityType } from "./generics";
 
 interface RepositoryEntity {
   readonly id?: number;
@@ -53,14 +53,14 @@ interface RepositoryEntity {
   readonly hooks_url?: string;
   readonly svn_url?: string;
   homepage: string;
-  language?: string,
+  language?: string;
   readonly forks_count?: number;
   readonly stargazers_count?: number;
   readonly watchers_count?: number;
   readonly size?: number;
   default_branch?: string;
   open_issues_count?: number;
-  is_template: boolean,
+  is_template: boolean;
   topics?: string[];
   has_issues?: boolean;
   has_projects?: boolean;
@@ -107,10 +107,10 @@ interface Entity {
   site_admin: boolean;
 }
 interface Owner extends Entity {
-  type: generics.GitHubEntityType.user;
+  type: GitHubEntityType.user;
 }
 interface Organization extends Entity {
-  type: generics.GitHubEntityType.organization;
+  type: GitHubEntityType.organization;
 }
 
 export interface License {
