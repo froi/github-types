@@ -1,5 +1,3 @@
-
-
 export interface GitHubEntity {
   login: string;
   name?: string;
