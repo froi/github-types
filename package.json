@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint **/*.ts",
-    "format-check": "prettier --check"
+    "format-check": "prettier --check",
+    "preversion": "npm run lint && npm run format-check",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
