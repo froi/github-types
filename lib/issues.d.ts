@@ -60,7 +60,7 @@ export interface Milestone {
 }
 
 export interface Issue {
-  id: 1,
+  id: number,
   node_id: string;
   url: string;
   repository_url: string;
