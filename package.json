@@ -1,6 +1,6 @@
 {
   "name": "github-types",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple module for GitHub API v3 types",
   "types": "index.d.ts",
   "scripts": {
