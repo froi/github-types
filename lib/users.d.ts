@@ -1,4 +1,4 @@
-import { GitHubEntity, GitHubEntityType } from "./generics";
+import { GitHubEntity, GitHubEntityType } from './generics';
 
 export interface User extends GitHubEntity {
   type: GitHubEntityType.user;

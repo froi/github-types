@@ -23,12 +23,12 @@ interface IssueUser {
   repos_url: string;
   events_url: string;
   received_events_url: string;
-  type: GitHubEntityType.user,
+  type: GitHubEntityType.user;
   site_admin: boolean;
 }
 declare enum IssueState {
-  open = "open",
-  closed = "closed"
+  open = 'open',
+  closed = 'closed',
 }
 
 export interface Label {
@@ -60,7 +60,7 @@ export interface Milestone {
 }
 
 export interface Issue {
-  id: number,
+  id: number;
   node_id: string;
   url: string;
   repository_url: string;
@@ -74,9 +74,9 @@ export interface Issue {
   body: string;
   user: IssueUser;
   labels: Label[];
-  assignee: IssueUser,
-  assignees: IssueUser[],
-  milestone: Milestone,
+  assignee: IssueUser;
+  assignees: IssueUser[];
+  milestone: Milestone;
   locked: boolean;
   active_lock_reason: string;
   comments: number;
@@ -84,5 +84,5 @@ export interface Issue {
   closed_at: Date;
   created_at: Date;
   updated_at: Date;
-  closed_by: IssueUser
+  closed_by: IssueUser;
 }

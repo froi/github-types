@@ -23,12 +23,12 @@ export interface GitHubEntity {
   readonly owned_private_repos?: number;
   readonly disk_usage?: number;
   readonly collaborators?: number;
-  readonly plan?: Plan
+  readonly plan?: Plan;
 }
 
 export enum GitHubEntityType {
-  user = "User",
-  organization = "Organization"
+  user = 'User',
+  organization = 'Organization',
 }
 
 export interface Plan {

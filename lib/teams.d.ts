@@ -1,7 +1,7 @@
 import { Organization } from './orgs';
 
-export interface Team extends TeamEntity{
-    parent?: TeamEntity
+export interface Team extends TeamEntity {
+  parent?: TeamEntity;
 }
 
 interface TeamEntity {

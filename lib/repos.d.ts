@@ -1,4 +1,4 @@
-import { GitHubEntityType } from "./generics";
+import { GitHubEntityType } from './generics';
 
 interface RepositoryEntity {
   readonly id?: number;
